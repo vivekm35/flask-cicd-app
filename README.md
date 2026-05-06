@@ -4,7 +4,6 @@
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![Docker](https://img.shields.io/badge/Docker-Containerized-blue)
 ![AWS](https://img.shields.io/badge/AWS-EC2-orange)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 A production-style CI/CD pipeline built from scratch using Python Flask, Docker, GitHub Actions, and AWS EC2.
 
@@ -149,7 +148,7 @@ Every push to `main` triggers the GitHub Actions pipeline automatically:
 
 ## Deployment
 
-The application is deployed on **AWS EC2** (Amazon Linux 2023, t2.micro):
+The application is deployed on **AWS EC2** (Amazon Linux 2023, t3.micro):
 
 - Docker installed and running on the server
 - App containerized and exposed on port 80
@@ -163,18 +162,5 @@ The application is deployed on **AWS EC2** (Amazon Linux 2023, t2.micro):
 MS in Computer Science — University of Cincinnati, Ohio
 
 - GitHub: [@vivekm35](https://github.com/vivekm35)
-- LinkedIn: [Connect with me](https://www.linkedin.com/in/vivekm35)
 
----
 
-## Portfolio Roadmap
-
-- [x] Project 1 — CI/CD Pipeline on AWS ← **YOU ARE HERE**
-- [ ] Project 2 — Kubernetes on AWS EKS with Auto-Scaling
-- [ ] Project 3 — Monitoring & Alerting with Prometheus + Grafana
-
----
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
