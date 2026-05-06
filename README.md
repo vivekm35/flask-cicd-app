@@ -24,20 +24,20 @@ Visit the live application: [http://18.217.117.71](http://18.217.117.71)
 
 ## Architecture
 Developer pushes code
-|
-
-GitHub Repository
-|
-
+        |
+        v
+  GitHub Repository
+        |
+        v
 GitHub Actions Pipeline
-|            |
-           
+   |            |
+   v            v
 Run Tests    Build Docker Image
 (pytest)     (only if tests pass)
-|
-
-AWS EC2 Server
-(Live Application)
+        |
+        v
+   AWS EC2 Server
+   (Live Application)
 ---
 
 ## Tech Stack
