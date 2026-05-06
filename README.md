@@ -159,7 +159,6 @@ The application is deployed on **AWS EC2** (Amazon Linux 2023, t3.micro):
 ## Author
 
 **Vivek Mekala**
-MS in Computer Science — University of Cincinnati, Ohio
 
 - GitHub: [@vivekm35](https://github.com/vivekm35)
 
