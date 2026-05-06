@@ -25,17 +25,17 @@ Visit the live application: [http://18.217.117.71](http://18.217.117.71)
 ## Architecture
 Developer pushes code
 |
-v
+
 GitHub Repository
 |
-v
+
 GitHub Actions Pipeline
 |            |
-v            v
+           
 Run Tests    Build Docker Image
 (pytest)     (only if tests pass)
 |
-v
+
 AWS EC2 Server
 (Live Application)
 ---
@@ -139,21 +139,7 @@ The application is deployed on AWS EC2 (Amazon Linux 2023, t2.micro):
 ## Author
 
 Vivek Mekala
-MS in Computer Science — University of Cincinnati, Ohio
 
 - GitHub: https://github.com/vivekm35
-- LinkedIn: https://www.linkedin.com/in/vivekm35
 
----
 
-## Portfolio Roadmap
-
-- [x] Project 1 — CI/CD Pipeline on AWS
-- [ ] Project 2 — Kubernetes on AWS EKS with Auto-Scaling
-- [ ] Project 3 — Monitoring & Alerting with Prometheus + Grafana
-
----
-
-## License
-
-This project is open source and available under the MIT License.
